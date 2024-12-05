@@ -50,7 +50,9 @@ android {
 }
 
 dependencies {
+    implementation("com.github.HaarigerHarald:android-youtubeExtractor:v2.1.0")
 
+    // implementation ("com.github.HaarigerHarald:android-youtubeExtractor:master-SNAPSHOT")
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
     implementation(libs.androidx.activity.compose)
